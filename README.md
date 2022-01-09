@@ -1,6 +1,5 @@
-# DEPRECATED
-
-This plugin is deprecated :( We're no longer able to maintain it. 
+originally a fork of [hardware_buttons]((https://pub.dev/packages/hardware_buttons) with few more features.
+i made this out of epub_kitty because the author was inactive(he isn't merging PRs or attending to issues) and i started having alot of issues with the plugin
 
 # hardware_buttons
 
@@ -8,7 +7,7 @@ This plugin is deprecated :( We're no longer able to maintain it.
 
 A Flutter plugin for iOS and Android for detecting various hardware buttons.
 
-Note: This plugin is still under development, and some APIs might not be available yet. [Feedback](https://github.com/flutter-moum/flutter_hardware_buttons/issues) and [Pull Requests](https://github.com/flutter-moum/flutter_hardware_buttons/pulls) are most welcome!
+Note: This plugin is still under development, and some APIs might not be available yet. [Feedback](https://github.com/JuniorFlorentino/hardware_buttons2/issues) and [Pull Requests](https://github.com/JuniorFlorentino/hardware_buttons2/pulls) are most welcome!
 
 ## Screenshots
 
@@ -74,12 +73,12 @@ Besides volume button events, there are also:
 
 ## Example
 
-Find the example wiring in the [example app](https://github.com/flutter-moum/flutter_hardware_buttons/blob/master/example/lib/main.dart).
+Find the example wiring in the [example app](https://github.com/JuniorFlorentino/hardware_buttons2/blob/master/example/lib/main.dart).
 
 ## API details
 
-See the [hardware_buttons.dart](https://github.com/flutter-moum/flutter_hardware_buttons/blob/master/lib/hardware_buttons.dart) for more API details.
+See the [hardware_buttons.dart](https://github.com/JuniorFlorentino/hardware_buttons2/blob/master/lib/hardware_buttons.dart) for more API details.
 
 ## Issues and feedback
 
-Please file [issues](https://github.com/flutter-moum/flutter_hardware_buttons/issues) to send feedback or report a bug. Thank you!
+Please file [issues](https://github.com/JuniorFlorentino/hardware_buttons2/issues) to send feedback or report a bug. Thank you!
