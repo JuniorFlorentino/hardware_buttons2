@@ -13,14 +13,16 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _latestHardwareButtonEvent;
 
-  StreamSubscription<HardwareButtons.VolumeButtonEvent> _volumeButtonSubscription;
+  StreamSubscription<HardwareButtons.VolumeButtonEvent>
+      _volumeButtonSubscription;
   StreamSubscription<HardwareButtons.HomeButtonEvent> _homeButtonSubscription;
   StreamSubscription<HardwareButtons.LockButtonEvent> _lockButtonSubscription;
 
   @override
   void initState() {
     super.initState();
-    _volumeButtonSubscription = HardwareButtons.volumeButtonEvents.listen((event) {
+    _volumeButtonSubscription =
+        HardwareButtons.volumeButtonEvents.listen((event) {
       setState(() {
         _latestHardwareButtonEvent = event.toString();
       });
@@ -65,5 +67,4 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
-
 }

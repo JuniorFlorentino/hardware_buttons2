@@ -42,7 +42,7 @@ To use with AndroidX, install the latest version as above instructions. To use w
 Add the following import to your Dart code:
 
 ```dart
-import 'package:hardware_buttons/hardware_buttons.dart';
+import 'package:hardware_buttons2/hardware_buttons2.dart';
 ```
 
 In order to listen to volume button events, use `volumeButtonEvents.listen` as below:
